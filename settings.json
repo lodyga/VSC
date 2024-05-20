@@ -1,0 +1,30 @@
+{
+    "files.autoSave": "afterDelay",
+    "git.openRepositoryInParentFolders": "always",
+    "editor.renderWhitespace": "none",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.semanticTokenColorCustomizations": {
+        
+    },
+    "explorer.confirmDelete": false,
+
+"database-client.showMoreCodeLens": false,
+"database-client.autoPagingSQL": false,
+"redhat.telemetry.enabled": true,
+"center-editor-window.offset": 7,
+"sqlite3-editor.ui.minimizePanel": false,
+"terminal.integrated.enableMultiLinePasteWarning": false,
+"editor.minimap.enabled": false,
+"[django-html]": {
+    "editor.defaultFormatter": "monosans.djlint"
+},
+"[html]": {
+    "editor.defaultFormatter": "monosans.djlint"
+},
+"sqlite3-editor.ui.movePanelIfSpaceAllows": "bottom",
+"window.restoreFullscreen": true,
+
+}
