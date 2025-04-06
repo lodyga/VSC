@@ -1,30 +1,55 @@
+// /home/ukasz/.config/Code/User/settings.json
 {
     "files.autoSave": "afterDelay",
     "git.openRepositoryInParentFolders": "always",
     "editor.renderWhitespace": "none",
+    "editor.tabSize": 3,
+    "editor.insertSpaces": true,
     "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.defaultFormatter": "monosans.djlint"
+    },
+    "[django-html]": {
+        "editor.defaultFormatter": "monosans.djlint"
+    },
+    "[javascript]": {
+        "editor.tabSize": 3,
+        "editor.insertSpaces": true
+    },
+    "[java]": {
+        "editor.tabSize": 3,
+        "editor.insertSpaces": true
+    },
+    "[cpp]": {
+        "editor.tabSize": 3,
+        "editor.insertSpaces": true
     },
     "security.workspace.trust.untrustedFiles": "open",
-    "editor.semanticTokenColorCustomizations": {
-        
-    },
+    "editor.semanticTokenColorCustomizations": {},
     "explorer.confirmDelete": false,
-
-"database-client.showMoreCodeLens": false,
-"database-client.autoPagingSQL": false,
-"redhat.telemetry.enabled": true,
-"center-editor-window.offset": 7,
-"sqlite3-editor.ui.minimizePanel": false,
-"terminal.integrated.enableMultiLinePasteWarning": false,
-"editor.minimap.enabled": false,
-"[django-html]": {
-    "editor.defaultFormatter": "monosans.djlint"
-},
-"[html]": {
-    "editor.defaultFormatter": "monosans.djlint"
-},
-"sqlite3-editor.ui.movePanelIfSpaceAllows": "bottom",
-"window.restoreFullscreen": true,
-
+    "database-client.showMoreCodeLens": false,
+    "database-client.autoPagingSQL": false,
+    "redhat.telemetry.enabled": true,
+    "center-editor-window.offset": 7,
+    "sqlite3-editor.ui.minimizePanel": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "sqlite3-editor.ui.movePanelIfSpaceAllows": "bottom",
+    "window.restoreFullscreen": true,
+    "editor.minimap.enabled": false,
+    "notebook.confirmDeleteRunningCell": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "top",
+    "djlint.showInstallError": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "git.confirmSync": false,
+    "C_Cpp.formatting": "vcFormat",
 }
