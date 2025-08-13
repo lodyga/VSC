@@ -27,10 +27,21 @@ Accepted scan codes:
 
 */
 [
-  // kill terminal
+  // terminal
   {
-    "key": "ctrl+shift+[Digit4]",
-    "command": "workbench.action.terminal.kill"
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+[keyW]",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+[Escape]",
+    "command": "openInIntegratedTerminal",
+    "when": "filesExplorerFocus"
   },
   // bind delete to backspace
   {
@@ -229,7 +240,8 @@ Accepted scan codes:
   {
     "key": "ctrl+[Escape]",
     "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
+    "when": "editorTextFocus"
+    //"when": "terminal.active"
   },
   {
     "key": "ctrl+[Backquote]",
@@ -698,7 +710,6 @@ Accepted scan codes:
     "command": "workbench.action.previousSideBarView",
     "when": "sideBarFocus"
   }
-
 ]
 /*
     {
